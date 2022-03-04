@@ -1,0 +1,265 @@
+/* OWN COMMON CSS----------- */
+    .detailsh2{
+        font-size: 1.35rem !important; 
+    }      
+    .color-blue{
+        background: #337ab7 !important;
+    }
+    .color-yellow{
+        background: #f0ad4e !important;
+    }
+    .color-red{
+        background: #d9534f !important;
+    }
+    .color-green{
+        background: #5cb85c !important;
+    }
+    .nounderline{
+        text-decoration-line: none !important;
+    }
+    .image_picker_image {
+        max-width: 140px;
+        max-height: 100px;
+        background-color: #FF0000;
+    }
+    .bg-blur {
+        -webkit-filter: grayscale(100%);
+        /*filter: blur(2px);*/
+        filter: opacity(30%);
+    }
+
+    .wc-offers{
+        border: 2px solid #1572E8  !important; 
+    }
+
+    /*for faq */
+            .accordion-section .panel-default > .panel-heading {
+        border: 0;
+        background: #f4f4f4;
+        padding: 0;
+    }
+    .accordion-section .panel-default .panel-title a {
+        display: block;
+        /*font-style: italic;*/
+        font-size: 1.5rem;
+        color: #007bff;
+        text-decoration-line: none;
+    }
+    .accordion-section .panel-default .panel-title a:after {
+        font-family: 'FontAwesome';
+        font-style: normal;
+        font-size: 3rem;
+        content: "\f106";
+        color: #1f7de2;
+        float: right;
+        margin-top: -12px;
+    }
+    .accordion-section .panel-default .panel-title a.collapsed:after {
+        content: "\f107";
+    }
+    .accordion-section .panel-default .panel-body .p {
+        font-size: 1.2rem !important;
+    }
+
+    .p-faq{
+        font-size: 1.2rem !important;
+    }
+    .p-3 {
+        padding: 10px !important;
+    }
+    /*end faq css*/
+    .api-offer-card>.card:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+  .homeoffercard:hover {
+    animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+
+@keyframes shake {
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+ 	.homeoffercard {
+            width: 50%;
+            padding-right: 5px;
+            padding-left: 5px;
+    }
+
+
+    #canvas {
+               width: 100%;
+        }
+
+    .dailylogin-bonus-card{
+            padding-right: 5px;
+            padding-left: 5px;
+            width: 50%;
+    }
+
+    .api-offer-card {
+	    width: 50%;
+	    padding-right: 5px;
+    	padding-left: 5px;
+	}
+
+	.btn-whatsapp {
+                display: block !important;
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+    .btn-facebook {
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+    .btn-twitter {
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+}
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.homeoffercard {
+            width: 33.33%;
+            max-width: 33.33%;
+            padding-right: 5px;
+            padding-left: 5px;
+            flex: none;
+    }
+
+    #canvas {
+               width: 60%;
+        }
+
+
+    .dailylogin-bonus-card{
+            width: 33.33%;
+            max-width: 33.33%;
+            padding-right: 5px;
+            padding-left: 5px;
+            flex: none;
+    }
+
+     .api-offer-card {
+            width: 33.33%;
+            max-width: 33.33%;
+            padding-right: 5px;
+            padding-left: 5px;
+            flex: none;
+	}
+
+	.btn-whatsapp {
+                display: block !important;
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+    .btn-facebook {
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+    .btn-twitter {
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+    .giveaway-card{
+            width: 33.33%;
+            max-width: 33.33%;
+            padding-right: 5px;
+            padding-left: 5px;
+            flex: none;
+    }
+
+    .card-statistics{
+        max-width: 50%;
+        flex: none;
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) {
+	.dailylogin-bonus-card{
+            width: 24.66%;
+            max-width: 24.66%;
+            padding-right: 5px;
+            padding-left: 5px;
+            flex: none;
+            }
+    /*.api-offer-card {
+            width: 24.66%;
+            max-width: 24.66%;
+            padding-right: 5px;
+            padding-left: 5px;
+            flex: none;
+	        }*/
+    .api-offer-card {
+            width: 33.33%;
+            max-width: 33.33%;
+            padding-right: 5px;
+            padding-left: 5px;
+            flex: none;
+    }
+
+	.btn-whatsapp {
+                display: block !important;
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+    .btn-facebook {
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+    .btn-twitter {
+                width: 100%;
+                margin: 5px;
+                color: white;
+                font-weight: bold;
+            }
+
+    .card-statistics{
+                max-width: 50%;
+                flex: none;
+            }
+}
